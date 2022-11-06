@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.5)
-project(GTestSetup)
+project(QuickSort)
 
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        src/main/MyClass.cpp
-        src/main/MyClass.h
+        src/main/QuickSortAlgorithm.cpp
+        src/main/QuickSortAlgorithm.h
 )
 
-add_executable(GTestSetup src/main/main.cpp ${SOURCE_FILES})
+add_executable(QuickSort src/main/main.cpp ${SOURCE_FILES})
 
 # Testing flags
 option(BUILD_TESTING "build unit tests" ON)
